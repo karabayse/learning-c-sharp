@@ -2,3 +2,4 @@
 
 C Sharp practice including:
 * Conditionals
+* Switch statement
