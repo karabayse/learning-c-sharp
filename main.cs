@@ -139,3 +139,73 @@ namespace JobCandidate
     }
   }
 }
+
+
+using System;
+using System.Collections.Generic;  // need this in order to use the 'new list' collection
+
+namespace SchoolTracker
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      var students = new List<student>();
+
+      var adding = true;
+
+      while (adding)
+      {
+        var newStudent = new Student();
+
+        Console.Write("Student Name: ");
+        newStudent.Name = Console.Readline();
+
+        Console.Write("Student Grade: ");
+        newStudent.Grade = int.Parse(Console.Readline());
+
+        Console.Write("Student Birthday: ");
+        newStudent.Birthday = Console.Readline();
+
+        Console.Write("Student Address: ");
+        newStudent.Address = Console.Readline();
+
+        Console.Write("Student Phone Number: ");
+        newStudent.Phone = int.Parse(Console.Readline());
+
+        students.Add(newStudent);
+
+        Console.WriteLine("Add another?  Y/N");
+
+        if (Console.ReadLine() != "Y")
+          adding = false;
+      }
+
+      foreach (var student in students)
+      {
+        Console.WriteLine("Name: {0}, Grade{1}", student.Name, student.Grade);
+      }
+    }
+  }
+
+  class Student
+  {
+    static void public int Count;
+
+    public string Name;
+    public int Grade;
+    public string Birthday;
+    public string Address;
+    private int phone; // 'private' provides a protection level *note lowercase
+
+    public int phone
+    {
+      set { phone = value; }
+    }
+
+    public void setPhone{int number}
+    {
+      phone = number;
+    }
+  }
+}
