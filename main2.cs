@@ -38,6 +38,14 @@ namespace LearningCSharp
       Console.WriteLine(number2);
       Console.WriteLine(cr);
       Console.ReadLine();
+
+
+      /* Mathematical Operations */
+      int number4 = 10;
+      var number5 = 10;
+      Console.WriteLine(10 + 10 * 20 / 2);
+      Console.WriteLine(number4 + number5);
+      Console.ReadLine();
     }
   }
 }
