@@ -65,6 +65,25 @@ namespace LearningCSharp
 
       Console.WriteLine(statement[0] + statement[1]);
       Console.ReadLine();
-    }
+
+
+      /* Conditional Statements */
+      Console.WriteLine("Enter your age below");
+      int age = Convert.toInt32(Console.Readline());
+
+      if (age < 18)
+      {
+        Console.WriteLine("You may not vote");
+      }
+      else if (age < 16)
+      {
+        Console.WriteLine("You may not drive");
+      }
+      else
+      {
+        Console.WriteLine("You are good to go");
+      }
+
+      Console.ReadLine();
   }
 }
