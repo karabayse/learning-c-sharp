@@ -46,6 +46,25 @@ namespace LearningCSharp
       Console.WriteLine(10 + 10 * 20 / 2);
       Console.WriteLine(number4 + number5);
       Console.ReadLine();
+
+
+      /* Arrays */
+      string[] statement = {
+        "Hello, ", // 0
+        "Programmers", // 1
+        "We are", // 2
+        "learning", // 3
+        "C# Programming" // 4
+      };
+      Console.WriteLine(statement[4]);
+      Console.ReadLine();
+
+      string[] statement2 = new string[];
+      statement[0] = "Hello";
+      statement[1] = "World";
+
+      Console.WriteLine(statement[0] + statement[1]);
+      Console.ReadLine();
     }
   }
 }
