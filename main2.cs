@@ -98,5 +98,11 @@ namespace LearningCSharp
       {
         Console.WriteLine(number[num]);
       }
+
+      /* foreach */
+      foreach(int myNumer in number)
+      {
+        Console.WriteLine(myNumber);
+      }
   }
 }
