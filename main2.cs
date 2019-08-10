@@ -85,5 +85,18 @@ namespace LearningCSharp
       }
 
       Console.ReadLine();
+
+
+      /* Loops */
+
+      /* for loop */
+      int[] number = {
+        10, 20, 30, 40, 50
+      };
+
+      for (int num = 0; num < number.Length(); num++)
+      {
+        Console.WriteLine(number[num]);
+      }
   }
 }
