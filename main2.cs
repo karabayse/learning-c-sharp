@@ -27,6 +27,17 @@ namespace LearningCSharp
       Console.WriteLine(hello);
       Console.WriteLine(number);
       Console.ReadLine();
+
+
+      /* Data Types */
+      int number = 10;
+      double number2 = 36.80;
+      float number3 = 50.36;
+      char cr = 'A';
+      Console.WriteLine(number);
+      Console.WriteLine(number2);
+      Console.WriteLine(cr);
+      Console.ReadLine();
     }
   }
 }
