@@ -107,12 +107,10 @@ namespace LearningCSharp
 
       /* while loop */
       int num2 = 0;
-      do
+      while (num2 < number.Length)
       {
-        Console.WriteLine(number[num3]);
-        num++
+        Console.WriteLine(number[num2]);
       }
-      while (num3 < number.Length);
 
       Console.ReadLine();
   }
