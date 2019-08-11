@@ -124,7 +124,7 @@ namespace LearningCSharp
       Console.ReadLine();
 
 
-      /* Switch Cases */
+      /* Switch Case */
       int age = Convert.ToInt32(Console.ReadLine());
 
       switch(age)
@@ -143,6 +143,14 @@ namespace LearningCSharp
           break;
         default:
           Console.WriteLine("Follow the law");
+      }
+      Console.ReadLine();
+
+
+      /* Enum */
+      enum Age
+      {
+
       }
       Console.ReadLine();
   }
