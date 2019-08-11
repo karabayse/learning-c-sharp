@@ -104,5 +104,16 @@ namespace LearningCSharp
       {
         Console.WriteLine(myNumber);
       }
+
+      /* while loop */
+      int num2 = 0;
+      do
+      {
+        Console.WriteLine(number[num3]);
+        num++
+      }
+      while (num3 < number.Length);
+
+      Console.ReadLine();
   }
 }
