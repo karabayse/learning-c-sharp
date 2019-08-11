@@ -122,5 +122,28 @@ namespace LearningCSharp
       while (num3 < number.Length);
 
       Console.ReadLine();
+
+
+      /* Switch Cases */
+      int age = Convert.ToInt32(Console.ReadLine());
+
+      switch(age)
+      {
+        case 16:
+          Console.WriteLine("You may drive");
+          break;
+        case 18:
+          Console.WriteLine("You may vote");
+          break;
+        case 21:
+          Console.WriteLine("You may order a drink");
+          break;
+        case 100:
+          Console.WriteLine("You may do anything");
+          break;
+        default:
+          Console.WriteLine("Follow the law");
+      }
+      Console.ReadLine();
   }
 }
